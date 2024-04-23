@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    @font-face {
+      font-family: Helvetica;
+      src: url(./assets/HELVETICANOWDISPLAY-MEDIUM.TTF);
+    }
+
+    .detailscontainer {
+      background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.829));
+    }
+  </style>
+  <body>
+    <div class="w-full h-screen font-['Helvetica']">
+      <div class="img-container w-full h-screen relative overflow-hidden">
+        <div
+          class="maincard w-[105%] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-[3] h-[105%]"
+        >
+          <img class="w-full h-full object-cover" src="" alt="" />
+        </div>
+        <div
+          class="incoming-card w-[105%] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-[2] h-[105%]"
+        >
+          <img class="w-full h-full object-cover" src="" alt="" />
+        </div>
+      </div>
+      <div
+        class="absolute top-0 left-0 z-[5] w-full h-screen flex flex-col justify-between"
+      >
+        <div class="navbar flex justify-between px-5 py-5 items-center">
+          <div class="prflimg w-[3rem] h-[3rem] overflow-hidden rounded-full">
+            <img
+              class="w-full h-full object-cover"
+              src="https://i.pinimg.com/564x/83/14/4d/83144d998d0e1bbbe98154dee9d36673.jpg"
+              alt=""
+            />
+          </div>
+          <h3 class="text-white text-xl">They liked you</h3>
+          <div
+            class="chaticon relative w-[3rem] h-[3rem] flex items-center justify-center rounded-full bg-white/40"
+          >
+            <i
+              class="ri-chat-3-fill text-lg font-bold opacity-100 text-white"
+            ></i>
+            <div
+              class="badge top-0 -translate-y-[2px] right-0 translate-x-[2px] absolute flex items-center justify-center w-5 h-5 bg-[#FC5149] rounded-full"
+            >
+              <h5 class="text-[12px] text-white"></h5>
+            </div>
+          </div>
+        </div>
+        <div class="detailscontainer w-full">
+          <div class="details px-5 py-5 w-full">
+            <div class="element location flex gap-3 items-center">
+              <i
+                class="w-[2rem] h-[2rem] bg-white flex items-center justify-center rounded-full font-semibold ri-corner-left-up-line"
+              ></i>
+              <h3 class="text-white"></h3>
+            </div>
+            <div class="element name flex text-white gap-4 mt-1">
+              <h1 class="text-6xl tracking-tight"></h1>
+              <h1 class="text-6xl tracking-tight opacity-70"></h1>
+            </div>
+            <div class="element tags flex gap-2 mt-3"></div>
+            <div class="element bio text-white/85 mt-4">
+              <h3 class="text-xl">Bio</h3>
+              <p class="text-lg mt-2 mb-4 tracking-tight leading-none"></p>
+            </div>
+          </div>
+          <div class="buttons mx-5 my-5 mt-[-15px]">
+            <div class="flex gap-1 items-center">
+              <button class="deny rounded-[3px] py-3 w-1/2 bg-white">
+                <i class="text-2xl ri-close-large-line"></i>
+              </button>
+              <button class="accept rounded-[3px] py-3 w-1/2 bg-[#FC5149]">
+                <i class="text-2xl text-white ri-heart-3-fill"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
