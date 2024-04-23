@@ -1,7 +1,7 @@
 let users = [
   {
     profilePic: "",
-    displayPic: "/assets/image1.JPG",
+    displayPic: "/assets/image1.webp",
     pendingMessage: 8,
     location: "USA, California",
     name: "Victoria",
@@ -21,7 +21,7 @@ let users = [
   },
   {
     profilePic: "",
-    displayPic: "/assets/image2.JPG",
+    displayPic: "/assets/image2.webp",
     pendingMessage: 4,
     location: "India, Delhi",
     name: "Ishita",
@@ -41,7 +41,7 @@ let users = [
   },
   {
     profilePic: "",
-    displayPic: "/assets/image3.jpeg",
+    displayPic: "/assets/image3.webp",
     pendingMessage: 3,
     location: "India, Gujarat",
     name: "Avaniya",
@@ -61,7 +61,7 @@ let users = [
   },
   {
     profilePic: "",
-    displayPic: "/assets/image4.jpeg",
+    displayPic: "/assets/image4.webp",
     pendingMessage: 9,
     location: "India, Bhopal",
     name: "Shreya",
@@ -81,7 +81,7 @@ let users = [
   },
   {
     profilePic: "",
-    displayPic: "/assets/image5.jpeg",
+    displayPic: "/assets/image5.webp",
     pendingMessage: 6,
     location: "USA, Canada",
     name: "Olivia",
